@@ -8,6 +8,8 @@ class Main {
   System.out.println("What is your name?:");
   String username = input.next();
   System.out.println("Ok! Your name is" +  username);
+  System.out.println
+  String adress = input.next();
     
     
   
