@@ -18,12 +18,14 @@ class Main {
   double poolWidth = input.nextDouble();
   System.out.println("Ok! The length of your pool is:" + poolWidth + " feet.");
   double poolArea = poolLength * poolWidth / 3; //Multiply pool length by pool width and then divide by 3 in order to convert to yards
-  double poolPlusConcrete = poolLength + 1 * poolWidth +1 *0.166667;
+  double poolPlusConcrete = poolLength+12  * poolWidth+12 ;
+    
+
   double concreteArea = poolPlusConcrete - poolArea;
-  System.out.println(concreteArea);
+  
   double pricePerYard = 419.95; //Set up constant PPY variable
-  double concreteCost = 419.95 * concreteArea; 
-  double tax = 5.5 * concreteCost;
+  double concreteCost = pricePerYard * concreteArea; 
+  double tax = 0.055 * concreteCost;
   double totalCost = 1200+ concreteCost + tax;
   System.out.println("Your bill is:" + totalCost);
     
