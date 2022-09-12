@@ -22,8 +22,11 @@ class Main {
   poolWidth = poolWidth + 12;
   double concreteArea = poolWidth * poolWidth - poolArea ;
   concreteArea = concreteArea * 0.5;
+  concreteArea = concreteArea / 3; //Divide by 3 in order to convert to yards
   System.out.println(concreteArea);
   System.out.println(poolArea);
+  double pricePerYard = 419.95;
+    
   
     
   
