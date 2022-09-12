@@ -9,7 +9,7 @@ class Main {
   String username = input.next();
   System.out.println("Ok! Your name is " +  username);
   System.out.println("What is your adress?");
-  String adress = input.nextln();
+  String adress = input.nextLine();
   System.out.println("Ok! Your adress is "+ adress);
     
     
