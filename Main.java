@@ -17,7 +17,8 @@ class Main {
   System.out.println("What is the width of your pool (in feet)");
   double poolWidth = input.nextDouble();
   System.out.println("Ok! The length of your pool is:" + poolWidth + " feet.");
-  
+  double poolArea = poolLength * poolWidth;
+  println(poolArea)
     
   
 
