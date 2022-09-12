@@ -18,7 +18,13 @@ class Main {
   double poolWidth = input.nextDouble();
   System.out.println("Ok! The length of your pool is:" + poolWidth + " feet.");
   double poolArea = poolLength * poolWidth;
-  println(poolArea)
+  poolLength = poolLength + 12;
+  poolWidth = poolWidth + 12;
+  double concreteArea = poolWidth * poolWidth - poolArea ;
+  concreteArea = concreteArea * 0.5;
+  System.out.println(concreteArea);
+  System.out.println(poolArea);
+  
     
   
 
