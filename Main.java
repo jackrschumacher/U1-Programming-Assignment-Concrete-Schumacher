@@ -5,7 +5,7 @@ class Main {
   public static void main(String[] args) {
 
   Scanner input = new Scanner(System.in);
-  System.out.println("What is your name?:");
+  System.out.println("What is your name?:"); //Input, name, address and the dimensions of your pool 
   String username = input.nextLine();
   System.out.println("Ok! Your name is " +  username);
   System.out.println("What is your adress?");
@@ -14,7 +14,10 @@ class Main {
   System.out.println("What is the length of your pool? (in feet)");
   double poolLength = input.nextDouble();
   System.out.println("Ok! The length of your pool is " + poolLength + " feet.");
-  double 
+  System.out.println("What is the width of your pool (in feet)");
+  double poolWidth = input.nextDouble();
+  System.out.println("Ok! The length of your pool is:" + poolWidth + " feet.");
+  
     
     
   
