@@ -17,8 +17,9 @@ class Main {
   System.out.println("What is the width of your pool (in feet)");
   double poolWidth = input.nextDouble();
   System.out.println("Ok! The length of your pool is:" + poolWidth + " feet.");
-  
-    
+  double poolArea = poolLength * poolWidth / 3; //Multiply pool length by pool width and then divide by 3 in order to convert to yards
+  double pricePerYard = 419.95; //Set up constant PPY variable
+  double bill = 1200+ 419.95;
     
   
 
