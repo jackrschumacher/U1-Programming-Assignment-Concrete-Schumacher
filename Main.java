@@ -22,7 +22,10 @@ class Main {
   double concreteArea = poolPlusConcrete - poolArea;
   System.out.println(concreteArea);
   double pricePerYard = 419.95; //Set up constant PPY variable
-  double bill = 1200+ 419.95 * concreteArea ;
+  double concreteCost = 419.95 * concreteArea; 
+  double tax = 5.5 * concreteCost;
+  double totalCost = 1200+ concreteCost + tax;
+  System.out.println("Your bill is:" + totalCost);
     
   
 
