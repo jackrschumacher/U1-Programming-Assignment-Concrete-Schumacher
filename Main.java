@@ -11,7 +11,8 @@ class Main {
   System.out.println("What is your adress?");
   String adress = input.nextLine();
   System.out.println("Ok! Your adress is "+ adress);
-    
+  System.out.println("What are the dimensions of your pool? (in foot)");
+  double 
     
     
   
