@@ -6,10 +6,12 @@ class Main {
 
   Scanner input = new Scanner(System.in);
   System.out.println("What is your name?:");
-  String username = input.next();
-  System.out.println("Ok! Your name is" +  username);
-  System.out.println("t");
-  String adress = input.next();
+  String username = input.nextLine();
+  System.out.println("Ok! Your name is " +  username);
+  System.out.println("What is your adress?");
+  String adress = input.nextLine();
+  System.out.println("Ok! Your adress is "+ adress);
+    
     
     
   
