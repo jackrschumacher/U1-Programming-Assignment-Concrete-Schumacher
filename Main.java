@@ -17,15 +17,17 @@ class Main {
   System.out.println("What is the width of your pool (in feet)");
   double poolWidth = input.nextDouble();
   System.out.println("Ok! The length of your pool is:" + poolWidth + " feet.");
-  double poolArea = poolLength * poolWidth;
+  double poolArea = poolLength * poolWidth; //Calculate the total pool area by Multiplying length * width
   poolLength = poolLength + 12;
-  poolWidth = poolWidth + 12;
+  poolWidth = poolWidth + 12; //add twelve because add 6 to each side
   double concreteArea = poolWidth * poolWidth - poolArea ;
   concreteArea = concreteArea * 0.5;
-  concreteArea = concreteArea / 3; //Divide by 3 in order to convert to yards
+  concreteArea = concreteArea / 27; //Divide by 3 in order to convert to yards
   System.out.println(concreteArea);
   System.out.println(poolArea);
   double pricePerYard = 419.95;
+  double bill = 1200 + (0.055*concreteArea) + (pricePerYard * concreteArea);
+  System.out.println(bill);
     
   
     
