@@ -8,9 +8,9 @@ class Main {
   System.out.println("What is your name?:"); //Input, name, address and the dimensions of your pool 
   String username = input.nextLine();
   System.out.println("Ok! Your name is " +  username);
-  System.out.println("What is your adress?");
-  String adress = input.nextLine();
-  System.out.println("Ok! Your adress is "+ adress);
+  System.out.println("What is your address?");
+  String address = input.nextLine();
+  System.out.println("Ok! Your address is "+ address);
   System.out.println("What is the length of your pool? (in feet)");
   double poolLength = input.nextDouble();
   System.out.println("Ok! The length of your pool is " + poolLength + " feet.");
@@ -29,7 +29,8 @@ class Main {
   double bill = 1200 + (0.055*concreteArea*pricePerYard) + (pricePerYard * concreteArea);
   System.out.println("----------Your Bill-------------");
   System.out.println("Name: "+ username);
-  System
+  System.out.println("Adress: "+ address);
+    
     
   
     
