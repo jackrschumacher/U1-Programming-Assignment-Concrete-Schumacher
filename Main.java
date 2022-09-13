@@ -29,8 +29,9 @@ class Main {
   double bill = 1200 + (0.055*concreteArea*pricePerYard) + (pricePerYard * concreteArea);
   System.out.println("----------Your Bill-------------");
   System.out.println("Name: "+ username);
-  System.out.println("Adress: "+ address);
-    
+  System.out.println("Address: "+ address);
+  System.out.println("Your total bill is: $"+bill);
+  
     
   
     
