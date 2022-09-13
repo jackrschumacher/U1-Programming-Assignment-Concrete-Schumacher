@@ -24,12 +24,12 @@ class Main {
   concreteArea = concreteArea - poolArea;
   concreteArea = concreteArea * 0.5;
   
-  System.out.println(concreteArea);
-  System.out.println(poolArea);
   double pricePerYard = 419.95;
-  concreteArea = concreteArea / 27; //Divide by 3 in order to convert to yards
+  concreteArea = concreteArea / 27; //Divide by 3 in order to convert to yards and then divide by 9, which gets you 27
   double bill = 1200 + (0.055*concreteArea*pricePerYard) + (pricePerYard * concreteArea);
-  System.out.println(bill);
+  System.out.println("----------Your Bill-------------");
+  System.out.println("Name: "+ username);
+  System
     
   
     
