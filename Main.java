@@ -31,11 +31,7 @@ class Main {
   System.out.println("Address: "+ address);
   System.out.println("Your total bill is: $"+bill);
   
-    
   
-    
-  
-
     
   }
 }
